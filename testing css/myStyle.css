@@ -22,6 +22,62 @@ html {
 }
 
 body {
+    margin: 0;
+    padding: 0;
     background-color: var(--black);
     font-family: var(--sans);
+    color: var(--white);
+    font-size: var(--font-size);
 }
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+a {
+    color: var(--magenta);
+    /* text-decoration: none; */
+}
+
+a:hover {
+    color: var(--hotmag);
+    text-decoration: none;
+}
+
+/* intro styles */
+
+#intro {
+    padding-bottom: 10rem;
+}
+
+#intro p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+#intro .name {
+    font-family: var(--mono);
+}
+.name span {
+    font-family: var(--sans);
+    font-size: 4rem;
+    color: var(--aqua);
+    display: block;
+}
+
+#intro h2 {
+    font-size: 4rem;
+}
+
+#contact {
+    text-align: center;
+    width: 400px;
+    margin: 0;
+    padding: 3rem 0;
+    background-color: var(--plum);
+}
+
+#contact h3 {
+    font-size: var(--font-size);
+}
+
